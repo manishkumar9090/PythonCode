@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-image: url('https://images.pexels.com/photos/259209/pexels-photo-259209.jpeg');
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  h1 {
+    color: #ffffff;
+  }
+  
+  p {
+    text-align: center;
+    color: #fff;
+  }
+  
+  .btn {
+    color: #fff;
+    background: #1e4bd2;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px 25px;
+    font-size: 18px;
+    border: none;
+  }
+  .btn2 {
+    color: #fff;
+    background: #1e4bd2;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 12px;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    width: 100%;
+  }
+  
+  .money-img {
+    width: 250px;
+  }
+  
+  .box{
+    /* border: 2px solid black; */
+    background: transparent;
+    border: 5px solid rbga(255,255,255,0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(2px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+  }
+  
+  .currency {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .currency select {
+    padding: 10px 20px 10px 10px;
+    border: 1px solid #dedede;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    background: #95a5d5;
+    font-weight: 600;
+  }
+  
+  .currency input {
+    border: 1px solid #0602eb;
+    background: transparent;
+    font-size: 30px;
+    background: #95a5d5;
+    text-align: center;
+    color: #fff;
+    width: 60%;
+  }
+  
+  .swap-rate-container {
+    margin: 25px 0px 10px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .rate {
+    color: #fff;
+    font-size: 16px;
+    padding: 0 10px;
+  }
+  
+  select:focus,
+  input:focus,
+  button:focus {
+    outline: 0;
+  }
+  
+  #amount-two {
+    width: 60%;
+    padding: 4px 16px;
+    text-align: right;
+    font-size: 25px;
+    background: #95a5d5;
+    border: 1px solid #b7cdb5;
+  }
+  
+  @media (max-width: 600px) {
+    .currency input {
+      width: 200px;
+    }
+  }
+  
